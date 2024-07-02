@@ -56,14 +56,19 @@ The data used in this project should be placed in the `data` directory. It inclu
 - Weather data (temperature, humidity, etc.)
 
 
+Sure, here is the updated section including the SVM model description:
+
+---
+
 ## Model Description
 
 This project includes several machine learning models for predicting power consumption:
 
-1. **Linear Regression**: A basic model for establishing a baseline.
-2. **Random Forest**: An ensemble learning method that improves prediction accuracy.
-3. SVM:
-   
+1. **Linear Regression**: A basic model for establishing a baseline. It models the relationship between the dependent variable (power consumption) and one or more independent variables by fitting a linear equation to the observed data.
+2. **Random Forest**: An ensemble learning method that improves prediction accuracy by constructing a multitude of decision trees during training and outputting the mean prediction (regression) of the individual trees.
+3. **Support Vector Machine (SVM)**: A supervised learning model used for both classification and regression tasks. In this project, SVM is used for regression (SVR). It works by finding the hyperplane that best fits the data in a high-dimensional space and is particularly effective in high-dimensional spaces and when the number of dimensions exceeds the number of samples.
+
+
 ## Results
 
 The results of the models, including their performance metrics (RMSE, MAE, R²), are documented in the `results` directory. Visualization of predictions versus actual values can also be found in this directory.
@@ -75,16 +80,3 @@ We welcome contributions from the community. If you wish to contribute, please f
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-For any questions or inquiries, please contact:
-
-- Name: [Your Name]
-- Email: [your.email@example.com]
-
-You can also reach out through the project's [GitHub Issues](https://github.com/yourusername/POWER-CONSUMPTION-MODELS/issues) page.
-
----
-
-Feel free to customize this template to fit your specific project's details and requirements.
